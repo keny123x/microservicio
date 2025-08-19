@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  usuarios:
+    build: ./usuarios
+    ports:
+      - "3001:3001"
+  productos:
+    build: ./productos
+    ports:
+      - "3002:3002"
